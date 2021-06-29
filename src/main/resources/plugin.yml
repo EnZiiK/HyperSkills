@@ -1,0 +1,11 @@
+name: HyperSkills
+version: 1.0.0
+description: A Skills plugin
+main: me.reb4ck.hyperskills.HyperSkills
+api-version: '1.13'
+author: Reb4ck
+load: POSTWORLD
+softdepend: [UltimateCore, JetsMinions, UltraMinions, HyperRegions,HyperAnvil, HyperCrafting, HyperEnchants, HyperRunes, WorldEdit, WorldGuard, PlaceholderAPI, MVdWPlaceholderAPI, Vault, XMaterial, MythicLib, MythicMobs]
+commands:
+  skills:
+    description: Main plugin command
